@@ -1,0 +1,41 @@
+.b__slider {
+  overflow: hidden;
+  position: relative;
+  top: 100px;
+  min-width: none;
+  width: 100%;
+  height: max-content;
+  background-size: contain;
+}
+.box {
+  height: 330px;
+  padding-top: 10px;
+  width: 25%;
+  z-index: 99;
+  top: -230px;
+  position: absolute;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.boxes .images {
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 2px;
+  height: 35%;
+  width: 35%;
+}
+@media only screen and (min-width: 300px) and (max-width: 490px) {
+  .b__slider {
+    top: 120px;
+  }
+  .box {
+    display: none;
+  }
+}
