@@ -33,7 +33,7 @@ function Home() {
         <div className="home__row">
           <Product
             id="45321341"
-            title="TASUS Vivobook 16X (2022), 16.0-inch (40.64 cms), AMD Ryzen 5 5600H, Thin and Laptop (8GB/512GB SSD/Windows 11/Office 2021/Silver/1.80 kg)"
+            title="TASUS Vivobook 16X, 16.0-inch, AMD Ryzen 5(8GB/512GB SSD//Silver/1.80 kg)"
             price={598.64}
             rating={5}
             image="https://m.media-amazon.com/images/I/41CQCMPCSdL._SX300_SY300_QL70_FMwebp_.jpg"
@@ -54,7 +54,7 @@ function Home() {
           />
           <Product
             id="3254354345"
-            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 8GB RAM /128GB) - Silver (4th Generation)"
             price={598.99}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
