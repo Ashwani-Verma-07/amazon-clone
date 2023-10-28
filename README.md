@@ -1,3 +1,5 @@
+![Screenshot (560)](https://github.com/Ashwani-Verma-07/NewsFlash-App/assets/89683890/7d205d5c-c23f-450c-a2e1-432ba40261db)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
