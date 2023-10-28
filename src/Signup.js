@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Login.css";
+import "./Signup.css";
 import { Link, useHistory } from "react-router-dom";
 import { auth } from "./firebase";
 
@@ -44,7 +44,7 @@ function Login() {
       </Link>
 
       <div className="login__container">
-        <h1>Sign-in</h1>
+        <h1>Sign-up</h1>
 
         <form>
           <h5>E-mail</h5>
@@ -63,10 +63,10 @@ function Login() {
 
           <button
             type="submit"
-            onClick={signIn}
+            onClick={register}
             className="login__signInButton"
           >
-            Sign In
+            Create Account
           </button>
         </form>
 
@@ -75,11 +75,10 @@ function Login() {
           Sale. Please see our Privacy Notice, our Cookies Notice and our
           Interest-Based Ads Notice.
         </p>
-        <Link to="/signup">
-          <button className="login__registerButton">
-            Create your Amazon Account
-          </button>
-        </Link>
+
+        {/* <button onClick={signIn} className="login__registerButton">
+          Sign in
+        </button> */}
       </div>
     </div>
   );
